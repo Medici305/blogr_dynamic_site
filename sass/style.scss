@@ -16,11 +16,19 @@ body {
 
 h2 {
   color: $Very-dark-blue;
+  font-weight: 700;
 }
 
 h4 {
   font-weight: 700;
   padding: 1rem 0;
+}
+
+a {
+  text-decoration: none;
+  color: $White;
+  margin: 0.4rem 0;
+  font-weight: 200;
 }
 
 /* Section 1 modern-publishing */
@@ -33,6 +41,7 @@ h4 {
   border-bottom-left-radius: 100px;
   .navbar-nav {
     margin-left: 2rem;
+    
   }
   .btn:first-child {
     margin-right: 1rem;
@@ -60,6 +69,52 @@ h4 {
   min-height: 80vh;
   &:first-child {
     margin-top: 5rem;
+  }
+}
+
+/* 3. Section 3 Art-Infrastructure */
+.art-infrastructure {
+  margin-top: 10rem;
+  color: $White;
+  background-image: url(../images/bg-pattern-circles.svg),
+    linear-gradient(15deg, rgba(44, 45, 63, 1) 15%, rgba(63, 65, 100, 1) 60%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+  .art-desc {
+    margin: 7rem 0;
+  }
+  h2 {
+    color: $White;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -17.5rem;
+  }
+}
+/* 4. Section 4 Powerful-Tool */
+.powerful-tool {
+  margin-top: 10rem;
+  color: $Very-dark-blue;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+/* 5. Section 5 Footer */
+.footer {
+  margin-top: 5rem;
+  background-color: $Very-dark-black-blue;
+  border-top-right-radius: 100px;
+  padding: 2rem 0;
+
+  li {
+    color: $White;
+    list-style-type: none;
+    margin: 1rem 0;
   }
 }
 

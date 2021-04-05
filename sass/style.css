@@ -31,6 +31,7 @@
   }
   .navbar > * a {
     padding: 2rem 0;
+    color: #1f3f5b !important;
   }
   .navbar .dropdown-menu {
     text-align: center;
@@ -46,7 +47,7 @@
   }
 
   .btn {
-    width: 40%;
+    width: 43%;
   }
 
   .btn:first-child {
@@ -64,10 +65,53 @@
   .design-future {
     text-align: center;
   }
+  .design-future .editor-desktop {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
 
   /* Section 3  modern-publishing */
-  /* Section 4  modern-publishing */
+  .art-infrastructure {
+    margin-top: 15rem;
+  }
+  .art-infrastructure .phone-container .phone-desktop {
+    width: 100%;
+    height: auto;
+    position: static !important;
+    transform: translateY(-8rem);
+  }
+  .art-infrastructure .art-desc {
+    margin: 0 !important;
+    transform: translateY(-5rem);
+  }
+  .art-infrastructure .art-desc h2,
+.art-infrastructure .art-desc p {
+    text-align: center;
+  }
+
+  /* Section 4  powerful-too */
+  .powerful-tool {
+    text-align: center;
+    margin-top: 5rem !important;
+  }
+  .powerful-tool .laptop-desktop {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
   /* Section 5  footer */
+  .footer {
+    padding: 2rem 0rem;
+  }
+  .footer img {
+    padding: 3rem 0rem;
+  }
+  .footer ul {
+    text-align: center;
+    margin: 1rem 0rem;
+  }
 }
 /* reset */
 * {
@@ -83,11 +127,19 @@ body {
 
 h2 {
   color: #1f3f5b;
+  font-weight: 700;
 }
 
 h4 {
   font-weight: 700;
   padding: 1rem 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 0.4rem 0;
+  font-weight: 200;
 }
 
 /* Section 1 modern-publishing */
@@ -125,6 +177,52 @@ h4 {
 }
 .design-future:first-child {
   margin-top: 5rem;
+}
+
+/* 3. Section 3 Art-Infrastructure */
+.art-infrastructure {
+  margin-top: 10rem;
+  color: white;
+  background-image: url(../images/bg-pattern-circles.svg), linear-gradient(15deg, #2c2d3f 15%, #3f4164 60%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+.art-infrastructure .art-desc {
+  margin: 7rem 0;
+}
+.art-infrastructure h2 {
+  color: white;
+}
+.art-infrastructure img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: -17.5rem;
+}
+
+/* 4. Section 4 Powerful-Tool */
+.powerful-tool {
+  margin-top: 10rem;
+  color: #1f3f5b;
+}
+.powerful-tool img {
+  width: 100%;
+  height: auto;
+}
+
+/* 5. Section 5 Footer */
+.footer {
+  margin-top: 5rem;
+  background-color: #25252d;
+  border-top-right-radius: 100px;
+  padding: 2rem 0;
+}
+.footer li {
+  color: white;
+  list-style-type: none;
+  margin: 1rem 0;
 }
 
 /* Reset Components */

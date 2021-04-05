@@ -15,6 +15,7 @@
       margin-top: 1rem;
       a {
         padding: 2rem 0;
+        color: $Very-dark-blue !important;
       }
     }
     .dropdown-menu {
@@ -30,7 +31,7 @@
     align-items: center;
   }
   .btn {
-    width: 40%;
+    width: 43%;
   }
   .btn:first-child {
     color: $Very-dark-blue !important;
@@ -49,8 +50,52 @@
   /* Section 2  design-future */
   .design-future {
     text-align: center;
+    .editor-desktop {
+      width: 100%;
+      height: auto;
+      margin-bottom: 2rem;
+    }
   }
   /* Section 3  modern-publishing */
-  /* Section 4  modern-publishing */
+  .art-infrastructure {
+    margin-top: 15rem;
+    .phone-container {
+      .phone-desktop {
+        width: 100%;
+        height: auto;
+        position: static !important;
+        transform: translateY(-8rem);
+      }
+    }
+    .art-desc {
+      margin: 0 !important;
+      transform: translateY(-5rem);
+      h2,
+      p {
+        text-align: center;
+      }
+    }
+  }
+  /* Section 4  powerful-too */
+  .powerful-tool {
+    text-align: center;
+    margin-top: 5rem !important;
+    .laptop-desktop {
+      width: 100%;
+      height: auto;
+      margin-bottom: 2rem;
+    }
+  }
+
   /* Section 5  footer */
+  .footer {
+    img {
+      padding: 3rem 0rem;
+    }
+    padding: 2rem 0rem;
+    ul {
+      text-align: center;
+      margin: 1rem 0rem;
+    }
+  }
 }
