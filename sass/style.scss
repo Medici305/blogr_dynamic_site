@@ -11,9 +11,19 @@
 
 body {
   font-family: Overpass;
+  overflow-x: hidden;
 }
 
-/* Section 1 */
+h2 {
+  color: $Very-dark-blue;
+}
+
+h4 {
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+/* Section 1 modern-publishing */
 .banner {
   min-height: 70vh;
   background-image: url(../images/bg-pattern-intro.svg),
@@ -41,6 +51,15 @@ body {
         color: $Very-light-red;
       }
     }
+  }
+}
+
+/* 2. Section 2 design-future */
+.design-future {
+  color: $Very-dark-blue;
+  min-height: 80vh;
+  &:first-child {
+    margin-top: 5rem;
   }
 }
 

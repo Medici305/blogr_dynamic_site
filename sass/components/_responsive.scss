@@ -1,6 +1,7 @@
 @import "./variables";
 
 @media screen and (max-width: 992px) {
+  /* Section 1  modern-publishing */
   .navbar {
     .navbar-toggler,
     .navbar-brand {
@@ -29,13 +30,13 @@
     align-items: center;
   }
   .btn {
-      width: 40%;
+    width: 40%;
   }
   .btn:first-child {
     color: $Very-dark-blue !important;
   }
   .btn:last-child {
-      margin-bottom: 1rem;
+    margin-bottom: 1rem;
     color: $White !important;
     background: rgb(255, 61, 84);
     background: linear-gradient(
@@ -44,4 +45,12 @@
       rgba(252, 176, 69, 1) 100%
     );
   }
+
+  /* Section 2  design-future */
+  .design-future {
+    text-align: center;
+  }
+  /* Section 3  modern-publishing */
+  /* Section 4  modern-publishing */
+  /* Section 5  footer */
 }

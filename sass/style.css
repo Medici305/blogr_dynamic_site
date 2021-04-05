@@ -17,6 +17,7 @@
 /* 3.1 Background gradient - Intro/CTA mobile nav: */
 /* 3.2 Background gradient - body: */
 @media screen and (max-width: 992px) {
+  /* Section 1  modern-publishing */
   .navbar .navbar-toggler,
 .navbar .navbar-brand {
     background: transparent !important;
@@ -58,6 +59,15 @@
     background: #ff3d54;
     background: linear-gradient(222deg, #ff3d54 38%, #fcb045 100%);
   }
+
+  /* Section 2  design-future */
+  .design-future {
+    text-align: center;
+  }
+
+  /* Section 3  modern-publishing */
+  /* Section 4  modern-publishing */
+  /* Section 5  footer */
 }
 /* reset */
 * {
@@ -68,9 +78,19 @@
 
 body {
   font-family: Overpass;
+  overflow-x: hidden;
 }
 
-/* Section 1 */
+h2 {
+  color: #1f3f5b;
+}
+
+h4 {
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+/* Section 1 modern-publishing */
 .banner {
   min-height: 70vh;
   background-image: url(../images/bg-pattern-intro.svg), linear-gradient(90deg, #ff8f70, #ff3d54);
@@ -96,6 +116,15 @@ body {
 .banner .jumbotron .btn:last-child:hover {
   background: white;
   color: #ff8f70;
+}
+
+/* 2. Section 2 design-future */
+.design-future {
+  color: #1f3f5b;
+  min-height: 80vh;
+}
+.design-future:first-child {
+  margin-top: 5rem;
 }
 
 /* Reset Components */
