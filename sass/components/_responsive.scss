@@ -1,0 +1,47 @@
+@import "./variables";
+
+@media screen and (max-width: 992px) {
+  .navbar {
+    .navbar-toggler,
+    .navbar-brand {
+      background: transparent !important;
+    }
+    & > * {
+      background: $White;
+      text-align: center;
+      color: $Very-dark-blue;
+      border-radius: 1rem;
+      margin-top: 1rem;
+      a {
+        padding: 2rem 0;
+      }
+    }
+    .dropdown-menu {
+      text-align: center;
+      border: none;
+      color: $Very-dark-black-blue;
+    }
+  }
+  .navbar-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn {
+      width: 40%;
+  }
+  .btn:first-child {
+    color: $Very-dark-blue !important;
+  }
+  .btn:last-child {
+      margin-bottom: 1rem;
+    color: $White !important;
+    background: rgb(255, 61, 84);
+    background: linear-gradient(
+      222deg,
+      rgba(255, 61, 84, 1) 38%,
+      rgba(252, 176, 69, 1) 100%
+    );
+  }
+}

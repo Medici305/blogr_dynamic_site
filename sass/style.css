@@ -7,6 +7,58 @@
 /* (footer background) */
 /* 3.1 Background gradient - Intro/CTA mobile nav: */
 /* 3.2 Background gradient - body: */
+/* (CTA text) */
+/* (CTA hover background) */
+/* (headings) */
+/* (text) */
+/* (footer text) */
+/* (body copy) */
+/* (footer background) */
+/* 3.1 Background gradient - Intro/CTA mobile nav: */
+/* 3.2 Background gradient - body: */
+@media screen and (max-width: 992px) {
+  .navbar .navbar-toggler,
+.navbar .navbar-brand {
+    background: transparent !important;
+  }
+  .navbar > * {
+    background: white;
+    text-align: center;
+    color: #1f3f5b;
+    border-radius: 1rem;
+    margin-top: 1rem;
+  }
+  .navbar > * a {
+    padding: 2rem 0;
+  }
+  .navbar .dropdown-menu {
+    text-align: center;
+    border: none;
+    color: #25252d;
+  }
+
+  .navbar-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn {
+    width: 40%;
+  }
+
+  .btn:first-child {
+    color: #1f3f5b !important;
+  }
+
+  .btn:last-child {
+    margin-bottom: 1rem;
+    color: white !important;
+    background: #ff3d54;
+    background: linear-gradient(222deg, #ff3d54 38%, #fcb045 100%);
+  }
+}
 /* reset */
 * {
   margin: 0;
@@ -31,26 +83,41 @@ body {
 }
 .banner .btn:first-child {
   margin-right: 1rem;
+  background: transparent;
 }
-.banner .btn:last-child {
-  color: #ff3d54;
+.banner .jumbotron .btn {
+  margin: 0 0.5rem;
+}
+.banner .jumbotron .btn:last-child {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+.banner .jumbotron .btn:last-child:hover {
+  background: white;
+  color: #ff8f70;
+}
+
+/* Reset Components */
+.btn {
+  color: #ff8f70;
   background: white;
   border-radius: 2rem;
   padding: 0.5rem 2rem;
   border: none;
 }
-.banner .btn:last-child:hover {
+.btn:hover {
   background: #ff8f70;
   color: white;
 }
 
-/* Reset Components */
-.btn {
-  outline: none;
-}
-
-.navbar-toggler-icon {
+.navbar-toggler-icon,
+.navbar-light,
+.navbar-toggler {
+  background-image: none !important;
   color: #fff !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 
 /*# sourceMappingURL=style.css.map */
