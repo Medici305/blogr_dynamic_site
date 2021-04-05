@@ -1,0 +1,50 @@
+// Imports
+@import "./components/variables";
+@import "./components/responsive";
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Overpass;
+}
+
+/* Section 1 */
+.banner {
+  min-height: 70vh;
+  background-image: url(../images/bg-pattern-intro.svg),
+    linear-gradient(90deg, $Very-light-red, $Light-red);
+  background-repeat: no-repeat;
+  background-position: 34% 53%;
+  border-bottom-left-radius: 100px;
+  .navbar-nav {
+    margin-left: 2rem;
+  }
+  .btn:first-child {
+    margin-right: 1rem;
+  }
+  .btn:last-child {
+    color: $Light-red;
+    background: $White;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+    border: none;
+    &:hover {
+      background: $Very-light-red;
+      color: $White;
+    }
+  }
+}
+
+/* Reset Components */
+.btn {
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  color: #fff !important;
+}

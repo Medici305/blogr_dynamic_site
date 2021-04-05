@@ -1,3 +1,56 @@
+/* (CTA text) */
+/* (CTA hover background) */
+/* (headings) */
+/* (text) */
+/* (footer text) */
+/* (body copy) */
+/* (footer background) */
+/* 3.1 Background gradient - Intro/CTA mobile nav: */
+/* 3.2 Background gradient - body: */
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Overpass;
+}
+
+/* Section 1 */
+.banner {
+  min-height: 70vh;
+  background-image: url(../images/bg-pattern-intro.svg), linear-gradient(90deg, #ff8f70, #ff3d54);
+  background-repeat: no-repeat;
+  background-position: 34% 53%;
+  border-bottom-left-radius: 100px;
+}
+.banner .navbar-nav {
+  margin-left: 2rem;
+}
+.banner .btn:first-child {
+  margin-right: 1rem;
+}
+.banner .btn:last-child {
+  color: #ff3d54;
+  background: white;
+  border-radius: 2rem;
+  padding: 0.5rem 2rem;
+  border: none;
+}
+.banner .btn:last-child:hover {
+  background: #ff8f70;
+  color: white;
+}
+
+/* Reset Components */
+.btn {
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  color: #fff !important;
+}
 
 /*# sourceMappingURL=style.css.map */
